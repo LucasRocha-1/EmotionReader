@@ -51,6 +51,9 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+data/processed/emotion_corrections.sqlite3
+data/processed/emotion_corrections.sqlite3-shm
+data/processed/emotion_corrections.sqlite3-wal
 
 # Translations
 *.mo

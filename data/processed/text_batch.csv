@@ -1,0 +1,8 @@
+id,timestamp,original_text,dominant_emotion,confidence,modality,model_backend,score_anger,score_disgust,score_fear,score_happiness,score_sadness,score_surprise,score_neutral
+e9447e63-8a3c-4d30-bf46-eaff401ec8f0,2026-11-09T06:16:40.019293+00:00,"Estou muito feliz com o resultado do projeto, ficou incrível!",anger,0.464697,text,transformers,0.464697,0.05725,0.098514,0.062248,0.041023,0.027163,0.249104
+1d6dfd59-53df-43dc-8964-445b04edb3a7,2026-11-09T06:16:40.019293+00:00,"Que raiva, o sistema caiu de novo no meio da apresentação.",disgust,0.310953,text,transformers,0.171556,0.310953,0.118242,0.062467,0.060865,0.034691,0.241226
+0131d4df-33df-422d-b2f9-4ce79550cda5,2026-11-09T06:16:40.019293+00:00,Tenho medo de não conseguir entregar a tempo.,neutral,0.458662,text,transformers,0.128447,0.276758,0.074191,0.018387,0.031393,0.012161,0.458662
+6446879f-3e02-4d50-a70d-c035c3c5a8cc,2026-11-09T06:16:40.019293+00:00,"Nossa, que surpresa receber essa notícia hoje!",anger,0.703078,text,transformers,0.703078,0.055258,0.046672,0.0203,0.036814,0.040424,0.097454
+4c20c091-bd23-42ce-a69e-7e56a4795ce8,2026-11-09T06:16:40.019293+00:00,Estou me sentindo um pouco triste e desmotivado ultimamente.,anger,0.458286,text,transformers,0.458286,0.070125,0.17454,0.007535,0.039235,0.006264,0.244016
+c874e32e-3e8d-4f24-b2b3-7d5335a1ecb3,2026-11-09T06:16:40.019293+00:00,"O relatório ficou ok, nada demais.",neutral,0.74208,text,transformers,0.018828,0.013774,0.012696,0.167959,0.026542,0.01812,0.74208
+b9972251-5e1c-40b3-b38d-fa9416e3a834,2026-11-09T06:16:40.019293+00:00,"Que nojo dessa atitude, não esperava isso de você.",disgust,0.500532,text,transformers,0.090138,0.500532,0.038357,0.017865,0.033347,0.013488,0.306274

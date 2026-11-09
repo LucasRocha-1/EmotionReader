@@ -1,0 +1,24 @@
+{
+  "event_type": "emotion.detected",
+  "event_id": "e9447e63-8a3c-4d30-bf46-eaff401ec8f0",
+  "occurred_at": "2026-11-09T06:16:40.019293+00:00",
+  "schema_version": "1.0.0",
+  "payload": {
+    "dominant_emotion": "anger",
+    "confidence": 0.4646974084791472,
+    "scores": {
+      "anger": 0.4646974084791472,
+      "disgust": 0.05724950730522517,
+      "fear": 0.098514472359414,
+      "happiness": 0.06224839599527876,
+      "sadness": 0.04102335763289219,
+      "surprise": 0.027163318581345564,
+      "neutral": 0.24910353964669713
+    },
+    "text_preview": "Estou muito feliz com o resultado do projeto, ficou incrível!",
+    "modality": "text",
+    "model_backend": "transformers",
+    "user_id": "demo_user",
+    "channel": "demo"
+  }
+}

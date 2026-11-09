@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0.0",
+  "created_at": "2026-11-09T06:16:40.019293+00:00",
+  "source": "demo_main",
+  "count": 7,
+  "results": [
+    {
+      "id": "e9447e63-8a3c-4d30-bf46-eaff401ec8f0",
+      "schema_version": "1.0.0",
+      "timestamp": "2026-11-09T06:16:40.019293+00:00",
+      "original_text": "Estou muito feliz com o resultado do projeto, ficou incrível!",
+      "cleaned_text": "estou muito feliz com o resultado do projeto, ficou incrível!",
+      "dominant_emotion": "anger",
+      "confidence": 0.464697,
+      "scores": {
+        "anger": 0.464697,
+        "disgust": 0.05725,
+        "fear": 0.098514,
+        "happiness": 0.062248,
+        "sadness": 0.041023,
+        "surprise": 0.027163,
+        "neutral": 0.249104
+      },
+      "modality": "text",
+      "model_name": "j-hartmann/emotion-english-distilroberta-base",
+      "model_backend": "transformers",
+      "language_hint": "pt",
+      "metadata": {}
+    },
+    {
+      "id": "1d6dfd59-53df-43dc-8964-445b04edb3a7",
+      "schema_version": "1.0.0",
+      "timestamp": "2026-11-09T06:16:40.019293+00:00",
+      "original_text": "Que raiva, o sistema caiu de novo no meio da apresentação.",
+      "cleaned_text": "que raiva, o sistema caiu de novo no meio da apresentação.",
+      "dominant_emotion": "disgust",
+      "confidence": 0.310953,
+      "scores": {
+        "anger": 0.171556,
+        "disgust": 0.310953,
+        "fear": 0.118242,
+        "happiness": 0.062467,
+        "sadness": 0.060865,
+        "surprise": 0.034691,
+        "neutral": 0.241226
+      },
+      "modality": "text",
+      "model_name": "j-hartmann/emotion-english-distilroberta-base",
+      "model_backend": "transformers",
+      "language_hint": "pt",
+      "metadata": {}
+    },
+    {
+      "id": "0131d4df-33df-422d-b2f9-4ce79550cda5",
+      "schema_version": "1.0.0",
+      "timestamp": "2026-11-09T06:16:40.019293+00:00",
+      "original_text": "Tenho medo de não conseguir entregar a tempo.",
+      "cleaned_text": "tenho medo de não conseguir entregar a tempo.",
+      "dominant_emotion": "neutral",
+      "confidence": 0.458662,
+      "scores": {
+        "anger": 0.128447,
+        "disgust": 0.276758,
+        "fear": 0.074191,
+        "happiness": 0.018387,
+        "sadness": 0.031393,
+        "surprise": 0.012161,
+        "neutral": 0.458662
+      },
+      "modality": "text",
+      "model_name": "j-hartmann/emotion-english-distilroberta-base",
+      "model_backend": "transformers",
+      "language_hint": "pt",
+      "metadata": {}
+    },
+    {
+      "id": "6446879f-3e02-4d50-a70d-c035c3c5a8cc",
+      "schema_version": "1.0.0",
+      "timestamp": "2026-11-09T06:16:40.019293+00:00",
+      "original_text": "Nossa, que surpresa receber essa notícia hoje!",
+      "cleaned_text": "nossa, que surpresa receber essa notícia hoje!",
+      "dominant_emotion": "anger",
+      "confidence": 0.703078,
+      "scores": {
+        "anger": 0.703078,
+        "disgust": 0.055258,
+        "fear": 0.046672,
+        "happiness": 0.0203,
+        "sadness": 0.036814,
+        "surprise": 0.040424,
+        "neutral": 0.097454
+      },
+      "modality": "text",
+      "model_name": "j-hartmann/emotion-english-distilroberta-base",
+      "model_backend": "transformers",
+      "language_hint": "pt",
+      "metadata": {}
+    },
+    {
+      "id": "4c20c091-bd23-42ce-a69e-7e56a4795ce8",
+      "schema_version": "1.0.0",
+      "timestamp": "2026-11-09T06:16:40.019293+00:00",
+      "original_text": "Estou me sentindo um pouco triste e desmotivado ultimamente.",
+      "cleaned_text": "estou me sentindo um pouco triste e desmotivado ultimamente.",
+      "dominant_emotion": "anger",
+      "confidence": 0.458286,
+      "scores": {
+        "anger": 0.458286,
+        "disgust": 0.070125,
+        "fear": 0.17454,
+        "happiness": 0.007535,
+        "sadness": 0.039235,
+        "surprise": 0.006264,
+        "neutral": 0.244016
+      },
+      "modality": "text",
+      "model_name": "j-hartmann/emotion-english-distilroberta-base",
+      "model_backend": "transformers",
+      "language_hint": "pt",
+      "metadata": {}
+    },
+    {
+      "id": "c874e32e-3e8d-4f24-b2b3-7d5335a1ecb3",
+      "schema_version": "1.0.0",
+      "timestamp": "2026-11-09T06:16:40.019293+00:00",
+      "original_text": "O relatório ficou ok, nada demais.",
+      "cleaned_text": "o relatório ficou ok, nada demais.",
+      "dominant_emotion": "neutral",
+      "confidence": 0.74208,
+      "scores": {
+        "anger": 0.018828,
+        "disgust": 0.013774,
+        "fear": 0.012696,
+        "happiness": 0.167959,
+        "sadness": 0.026542,
+        "surprise": 0.01812,
+        "neutral": 0.74208
+      },
+      "modality": "text",
+      "model_name": "j-hartmann/emotion-english-distilroberta-base",
+      "model_backend": "transformers",
+      "language_hint": "pt",
+      "metadata": {}
+    },
+    {
+      "id": "b9972251-5e1c-40b3-b38d-fa9416e3a834",
+      "schema_version": "1.0.0",
+      "timestamp": "2026-11-09T06:16:40.019293+00:00",
+      "original_text": "Que nojo dessa atitude, não esperava isso de você.",
+      "cleaned_text": "que nojo dessa atitude, não esperava isso de você.",
+      "dominant_emotion": "disgust",
+      "confidence": 0.500532,
+      "scores": {
+        "anger": 0.090138,
+        "disgust": 0.500532,
+        "fear": 0.038357,
+        "happiness": 0.017865,
+        "sadness": 0.033347,
+        "surprise": 0.013488,
+        "neutral": 0.306274
+      },
+      "modality": "text",
+      "model_name": "j-hartmann/emotion-english-distilroberta-base",
+      "model_backend": "transformers",
+      "language_hint": "pt",
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "model_name": "j-hartmann/emotion-english-distilroberta-base",
+    "backend": "transformers",
+    "language_hint": "pt"
+  }
+}

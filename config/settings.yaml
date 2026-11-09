@@ -1,0 +1,75 @@
+# Configurações do EmotionReader
+# Foco atual: análise de emoções em TEXTO (pronto para integração e expansão)
+
+project:
+  name: EmotionReader
+  version: "0.2.0"
+  description: "Sistema de leitura de emoções – foco em texto, extensível para facial/multimodal"
+
+# Modalidades
+modalities:
+  text: true
+  facial: true          # primeira versão pronta
+  multimodal: false     # fusão futura
+
+# Conjunto canônico de emoções (não alterar sem bump de schema_version)
+emotions:
+  - anger
+  - disgust
+  - fear
+  - happiness
+  - sadness
+  - surprise
+  - neutral
+
+# ---------------------------------------------------------------------------
+# Modelo de TEXTO (principal)
+# ---------------------------------------------------------------------------
+text_model:
+  # Modelo padrão (inglês, 7 emoções, leve e bom)
+  name: "j-hartmann/emotion-english-distilroberta-base"
+
+  # Alternativas úteis (descomente / troque conforme necessidade):
+  # name: "SamLowe/roberta-base-go_emotions"          # mais labels (GoEmotions)
+  # name: "pysentimiento/robertuito-emotion-analysis" # foco em espanhol/pt-ish
+  # name: "cardiffnlp/twitter-roberta-base-emotion"   # domínio Twitter
+
+  device: "cpu"                    # "cuda" se tiver GPU
+  max_length: 128
+  batch_size: 16
+  language_hint: "pt"              # metadado + influência no fallback lexical
+  min_confidence_threshold: 0.0    # se confidence < threshold → força neutral
+
+# ---------------------------------------------------------------------------
+# Facial (esqueleto – para evolução futura)
+# ---------------------------------------------------------------------------
+face:
+  detector: "mediapipe"
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+  emotion_model: "simple_cnn"      # placeholder
+
+# ---------------------------------------------------------------------------
+# Pipeline e saída
+# ---------------------------------------------------------------------------
+pipeline:
+  default_mode: "text"
+  save_results: true
+  output_dir: "data/processed"
+
+# Visualização
+visualization:
+  show_confidence: true
+  color_map:
+    anger: "#E74C3C"
+    disgust: "#8E44AD"
+    fear: "#3498DB"
+    happiness: "#F1C40F"
+    sadness: "#2980B9"
+    surprise: "#E67E22"
+    neutral: "#95A5A6"
+
+# Logging
+logging:
+  level: "INFO"
+  save_logs: false
